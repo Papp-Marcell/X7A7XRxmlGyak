@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE órarend [
+<!ENTITY óra (targy,időpont,helyszín,oktató,szak)>
+<!ATTLIST óra id number típus #PCDATA)>
+<!ENTITY targy (#PCDATA)>
+<!ENTITY időpont (nap, tol, ig)>
+<!ENTITY nap (#PCDATA)>
+<!ENTITY tol (#PCDATA)>
+<!ENTITY ig (#PCDATA)>
+<!ENTITY helyszín (#PCDATA)>
+<!ENTITY oktató (#PCDATA)>
+<!ENTITY szak (#PCDATA)>
+]>

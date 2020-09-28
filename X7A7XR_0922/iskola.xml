@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE iskola [
+<!ELEMENT iskola (tanár, tantárgy)>
+<!ELEMENT tanár (név, szak)>
+<!ATTLIST tanár kód ID #REQUIRED>
+<!ELEMENT név (#PCDATA)>
+<!ELEMENT szak (#PCDATA)>
+<!ELEMENT tantárgy (tnév, osztály)>
+<!ATTLIST tantárgy kód ID #REQUIRED>
+<!ATTLIST tantárgy oktató CDATA #REQUIRED>
+<!ELEMENT tnév (#PCDATA)>
+<!ELEMENT osztály (#PCDATA)>
+]>
+
+<iskola>
+	<tanár kód="id0">
+		<név>Bednarik László</név>
+		<szak>PTI</szak>
+	</tanár>
+	
+	<tantárgy kód="id1" oktató="Bednarik László">
+		<tnév>XML</tnév>
+		<osztály>k01</osztály>
+	</tantárgy>
+</iskola>
