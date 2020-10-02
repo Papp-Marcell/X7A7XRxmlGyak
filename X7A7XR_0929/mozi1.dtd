@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT mozi (film)>
+<!ELEMENT film (rendező,színész,író)>
+<!ATTLIST film id ID #REQUIRED>
+<!ATTLIST film műfaj CDATA #REQUIRED>
+<!ELEMENT rendező EMPTY>
+<!ATTLIST rendező id ID #REQUIRED>
+<!ATTLIST rendező név CDATA #REQUIRED>
+<!ELEMENT színész EMPTY>
+<!ATTLIST színész id ID #REQUIRED>
+<!ATTLIST színész név CDATA #REQUIRED>
+<!ELEMENT író EMPTY>
+<!ATTLIST író id ID #REQUIRED>
+<!ATTLIST író név CDATA #REQUIRED>

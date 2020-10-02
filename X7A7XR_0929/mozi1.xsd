@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/mozi1" xmlns:tns="http://www.example.org/mozi1" elementFormDefault="qualified">
+
+<element name="mozi">
+  <complexType>
+    <sequence>
+      <element name="film">
+      	<complexType>
+      		 <sequence>
+      		 	<element name="rendező">
+      		 		<complexType>
+      		 		
+      		 		<attribute name="id" type="int" />
+      		 		<attribute name="nev" type="string" />
+      		 		</complexType>
+      		 	</element>
+      		 	<element name="színész">
+      		 		<complexType>
+      		 		
+      		 		<attribute name="id" type="int" />
+      		 		<attribute name="nev" type="string" />
+      		 		</complexType>
+      		 	</element>
+      		 	<element name="író">
+      		 		<complexType>
+      		 		
+      		 		<attribute name="id" type="int" />
+      		 		</complexType>
+      		 	</element>
+      		 </sequence>
+      		 <attribute name="id" type="int" />
+      		 <attribute name="műfaj" type="string" />
+      	</complexType>
+      </element>
+    </sequence>
+  </complexType>
+</element>
+
+</schema>

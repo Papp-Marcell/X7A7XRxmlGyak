@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/orarend" xmlns:tns="http://www.example.org/orarend" elementFormDefault="qualified">
+
+<element name="órarend">
+  <complexType>
+    <sequence>
+      <element name="óra">
+      <complexType>
+      	<sequence>
+      		<element name="tárgy" type="string"/>
+      		<element name="időpont">
+      			<complexType>
+      				<sequence>
+      				<element name="nap" type="string"/>
+      				<element name="tól" type="string"/>
+      				<element name="ig" type="string"/>
+      				</sequence>
+      			</complexType>
+      		</element>
+      		<element name="helyszín" type="string"/>
+      		<element name="tárgy" type="string"/>
+      		<element name="oktató" type="string"/>
+      		<element name="szak" type="string"/>
+      	</sequence>
+      	<attribute name="id" type="int" />
+      	<attribute name="típus"  type="string" />
+      </complexType> 
+      </element>
+    </sequence>
+  </complexType>
+</element>
+
+</schema>
