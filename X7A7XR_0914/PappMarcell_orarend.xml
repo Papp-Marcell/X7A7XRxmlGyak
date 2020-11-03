@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE note SYSTEM "note.dtd"> -->
+
+	<órarend>
+	
+		<óra>
+			<id>0</id>
+			<tipus>gyakorlat</tipus>
+		</óra>
+		
+		<targy>xml</targy>
+		
+		<időpont>
+			<nap>kedd</nap>
+			<tol>14</tol>
+			<ig>16<ig>
+		</időpont>
+		
+		<helyszin>XX.előadó</helyszin>
+		<oktato>Bednarik László</oktato>
+		<szak>progterv</szak>
+		
+	</órarend>

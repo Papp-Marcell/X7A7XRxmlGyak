@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/nevjegykartya" xmlns:tns="http://www.example.org/nevjegykartya" elementFormDefault="qualified">
+
+	<element name="nevjegykartyak">
+		<complexType>
+			<sequence>
+				<element name="nevjegykartya">
+					<complexType>
+						<sequence>
+						
+						
+						
+						
+						
+						
+						</sequence>
+						<attribute name="id" type="int"/>
+					</complexType>
+						
+				</element>
+			</sequence>
+			
+		</complexType>
+	
+	</element>
+
+</schema>

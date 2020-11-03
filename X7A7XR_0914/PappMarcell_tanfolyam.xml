@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE note SYSTEM "note.dtd"> -->
+
+<conference>
+  
+  <address>Miskolc</address>
+  <date>2020-09-01</date>
+  <előadó>
+	<név>Józsi</név>
+	<lakcim>Miskolc</lakcim>
+	<adoszam>2161822</adoszam>
+  </előadó>
+  <helyszin>XXX.előadó</helyszin>
+  <hallgatók>
+	<hallgató>
+		<név>István</név>
+		<lakcim>Eger</lakcim>
+	</hallgató>
+  </hallgatók>
+</conference>

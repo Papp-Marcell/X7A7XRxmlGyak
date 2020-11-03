@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak>
+	<nevjegykartya id="0">
+		<nev>Péter</nev>
+		<beosztas>főnök</beosztas>
+		<email>adwi@gmail.com</email>
+		<telefonszam korzet="06">21313178871</telefonszam>
+		<ceg>
+			<nev>xdd kft</nev>
+			<weblap>xdd.com</weblap>
+			<telefonszam korzet="06">876178871</telefonszam>
+			<cim>
+				<iranyitoszam>3683</iranyitoszam>
+				<varos>miskolc</varos>
+				<utca>főutca</utca>
+				<hazszam>13</hazszam>
+			</cim>
+		
+		</ceg>
+	</nevjegykartya>
+</nevjegykartyak>
