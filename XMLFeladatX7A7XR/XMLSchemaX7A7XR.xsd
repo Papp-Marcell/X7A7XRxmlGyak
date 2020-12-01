@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/XMLSchemaX7A7XR" xmlns:tns="http://www.example.org/XMLSchemaX7A7XR" elementFormDefault="qualified">
+<element name="zeneiskolak">
+	<complexType>
+		<sequence>
+		
+			<element name="város">
+				<complexType>
+					<sequence>
+						<element name="lakosság" type="integer"/>
+						<element name="terület" type="integer"/>
+						<element name="hívószám" type="integer"/>
+					</sequence>
+					<attribute name="Városnév" type="string" />
+				</complexType>
+			</element>
+			
+			<element name="zeneiskola">
+				<complexType>
+					<sequence>
+						<element name="ZINév" type="string"/>
+						<element name="telefonszám" type="integer"/>
+						<element name="cím">
+							<complexType>
+								<sequence>
+									<element name="irányítószám" type="integer"/>
+									<element name="utca" type="string"/>
+									<element name="házszám" type="integer"/>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+					<attribute name="ZIkód" type="integer"/>
+					<attribute name="Városref" type="string"/>
+				</complexType>
+			</element>
+			
+			<element name="zenetanár">
+				<complexType>
+					<sequence>
+						<element name="ZTnév" type="string"/>
+						<element name="telefonszám" type="integer"/>
+						<element name="Hangszer" type="string" maxOccurs="10" />
+					</sequence>
+					<attribute name="ZTkód" type="integer"/>
+					<attribute name="ZIref" type="integer"/>
+				</complexType>
+			</element>
+			
+			<element name="igazgató">
+				<complexType>
+					<sequence>
+						<element name="Inév" type="string"/>
+						<element name="szDátum" type="integer"/>
+					</sequence>
+					<attribute name="Ikód" type="integer"/>
+					<attribute name="ZIref" type="integer"/>
+				</complexType>
+			</element>
+			
+		</sequence>
+	</complexType>
+</element>
+
+
+</schema>
